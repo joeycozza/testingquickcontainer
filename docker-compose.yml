@@ -1,0 +1,7 @@
+version: '2'
+services:
+  node:
+    build: .
+    environment:
+        - NODE_ENV=development
+    entrypoint: "node"
